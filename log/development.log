@@ -1557,3 +1557,978 @@ SyntaxError (/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/contr
   Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
   Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
   Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (135.5ms)
+
+
+Started GET "/api" for ::1 at 2018-06-28 09:29:29 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/api"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+  puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+  puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.3ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (272.6ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (238.2ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.7ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (503.0ms)
+
+
+Started GET "/api/users" for ::1 at 2018-06-28 09:30:17 -0500
+
+ActionController::RoutingError (No route matches [GET] "/api/users"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+  puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+  puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (200.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (139.1ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (328.8ms)
+
+
+Started GET "/api/user" for ::1 at 2018-06-28 09:30:24 -0500
+Processing by UsersController#show as JSON
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/user" for ::1 at 2018-06-28 09:30:30 -0500
+Processing by UsersController#show as JSON
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users/login" for ::1 at 2018-06-28 09:30:46 -0500
+
+SyntaxError (/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '{', expecting keyword_end
+...ion only: [:create, :destroy] { request.env["devise.skip_tim...
+...                              ^
+/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+..."devise.skip_timeout"] = true }
+...                              ^):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (157.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (132.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (306.7ms)
+
+
+Started GET "/api/users/" for ::1 at 2018-06-28 09:42:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/api/users"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+  puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+  puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (153.3ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (122.2ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (285.3ms)
+
+
+Started GET "/api/users/sign_up" for ::1 at 2018-06-28 09:43:39 -0500
+Processing by Devise::RegistrationsController#new as JSON
+Completed 200 OK in 58ms (Views: 1.0ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/users/" for ::1 at 2018-06-28 09:44:54 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (2.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 239ms (Views: 0.2ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/api/users/sign_up" for ::1 at 2018-06-28 09:45:05 -0500
+
+ActionController::RoutingError (No route matches [POST] "/api/users/sign_up"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+  puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+  puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (52.1ms)
+
+
+Started POST "/api/users/" for ::1 at 2018-06-28 09:45:16 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 296ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/users/?user=fartcity&email=rob@rob.com&password=[FILTERED]" for ::1 at 2018-06-28 09:46:17 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>"fartcity", "email"=>"rob@rob.com", "password"=>"[FILTERED]", "registration"=>{"user"=>"fartcity"}}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `permit' for "fartcity":String):
+  devise (4.2.1) lib/devise/parameter_sanitizer.rb:140:in `permit_keys'
+  devise (4.2.1) lib/devise/parameter_sanitizer.rb:74:in `sanitize'
+  devise (4.2.1) app/controllers/devise/registrations_controller.rb:138:in `sign_up_params'
+  devise (4.2.1) app/controllers/devise/registrations_controller.rb:15:in `create'
+  actionpack (4.2.10) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.10) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.10) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+  warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+  warden (1.2.7) lib/warden/manager.rb:35:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+  puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+  puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (127.4ms)
+
+
+Started POST "/api/users/?username=fartcity&email=rob@rob.com&password=[FILTERED]" for ::1 at 2018-06-28 09:47:00 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, "username"=>"fartcity", "email"=>"rob@rob.com", "password"=>"[FILTERED]", "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 255ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/users/?username=fartcity&email=EMAIL&password=[FILTERED]" for ::1 at 2018-06-28 09:47:21 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, "username"=>"fartcity", "email"=>"EMAIL", "password"=>"[FILTERED]", "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 358ms (Views: 1.1ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/users/login" for ::1 at 2018-06-28 09:48:26 -0500
+
+SyntaxError (/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '{', expecting keyword_end
+...ion only: [:create, :destroy] { request.env["devise.skip_tim...
+...                              ^
+/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+..."devise.skip_timeout"] = true }
+...                              ^):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (2.2ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (146.9ms)
+
+
+Started POST "/api/users/" for ::1 at 2018-06-28 09:58:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 259ms (Views: 0.6ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/api/users/?%20user=%7B%7D" for ::1 at 2018-06-28 09:59:56 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, " user"=>"{}", "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 169ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/users/?%20user=%7B%7D" for ::1 at 2018-06-28 10:06:42 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, " user"=>"{}", "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.8ms)[0m  begin transaction
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 192ms (Views: 1.3ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/users/?username=fartcity&email=EMAIL&password=[FILTERED]" for ::1 at 2018-06-28 10:06:51 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, "username"=>"fartcity", "email"=>"EMAIL", "password"=>"[FILTERED]", "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 155ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/users" for ::1 at 2018-06-28 10:11:50 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 156ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/users?email=EMAIL&password=[FILTERED]" for ::1 at 2018-06-28 10:13:11 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, "email"=>"EMAIL", "password"=>"[FILTERED]", "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 234ms (Views: 1.9ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/users?email=%7B%7BEMAIL%7D%7D&password=[FILTERED]" for ::1 at 2018-06-28 10:14:02 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, "email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 159ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/users?user=%7B%7D" for ::1 at 2018-06-28 10:15:29 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>"{}", "registration"=>{"user"=>"{}"}}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `permit' for "{}":String):
+  devise (4.2.1) lib/devise/parameter_sanitizer.rb:140:in `permit_keys'
+  devise (4.2.1) lib/devise/parameter_sanitizer.rb:74:in `sanitize'
+  devise (4.2.1) app/controllers/devise/registrations_controller.rb:138:in `sign_up_params'
+  devise (4.2.1) app/controllers/devise/registrations_controller.rb:15:in `create'
+  actionpack (4.2.10) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.10) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.10) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+  warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+  warden (1.2.7) lib/warden/manager.rb:35:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+  puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+  puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.5ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (142.0ms)
+
+
+Started POST "/api/users?user=monkey" for ::1 at 2018-06-28 10:15:51 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>"monkey", "registration"=>{"user"=>"monkey"}}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `permit' for "monkey":String):
+  devise (4.2.1) lib/devise/parameter_sanitizer.rb:140:in `permit_keys'
+  devise (4.2.1) lib/devise/parameter_sanitizer.rb:74:in `sanitize'
+  devise (4.2.1) app/controllers/devise/registrations_controller.rb:138:in `sign_up_params'
+  devise (4.2.1) app/controllers/devise/registrations_controller.rb:15:in `create'
+  actionpack (4.2.10) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.10) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.10) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+  warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+  warden (1.2.7) lib/warden/manager.rb:35:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+  puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+  puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.3ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (137.9ms)
+
+
+Started POST "/api/users" for ::1 at 2018-06-28 10:30:24 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}, "registration"=>{"user"=>{"email"=>"{{EMAIL}}", "password"=>"[FILTERED]", "username"=>"johnjacob"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '{{email}}' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'johnjacob' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 177ms (Views: 0.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/users" for ::1 at 2018-06-28 10:31:02 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"hello@example.com", "password"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"hello@example.com", "password"=>"[FILTERED]"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'hello@example.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 282ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/users" for ::1 at 2018-06-28 10:31:44 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"hello@example.com", "password"=>"[FILTERED]", "usernname"=>"theFucker"}, "registration"=>{"user"=>{"email"=>"hello@example.com", "password"=>"[FILTERED]", "usernname"=>"theFucker"}}}
+Can't verify CSRF token authenticity
+Unpermitted parameter: usernname
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'hello@example.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 154ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/users" for ::1 at 2018-06-28 10:31:57 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"hello@example.com", "password"=>"[FILTERED]", "username"=>"theFucker"}, "registration"=>{"user"=>{"email"=>"hello@example.com", "password"=>"[FILTERED]", "username"=>"theFucker"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'hello@example.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'theFucker' LIMIT 1
+  [1m[36mSQL (7.1ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "username", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "hello@example.com"], ["encrypted_password", "$2a$11$/fgE3Hr6g1dnkjWpaiqW7ueks3I/kzmi0LQPjP7us1ZlCD.LDvWz6"], ["username", "theFucker"], ["created_at", "2018-06-28 15:31:57.208646"], ["updated_at", "2018-06-28 15:31:57.208646"]]
+  [1m[35m (1.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2018-06-28 15:31:57.221564"], ["current_sign_in_at", "2018-06-28 15:31:57.221564"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2018-06-28 15:31:57.222730"], ["id", 1]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  Rendered users/_user.json.jbuilder (4.0ms)
+  Rendered devise/registrations/create.json.jbuilder (31.2ms)
+Completed 200 OK in 289ms (Views: 88.7ms | ActiveRecord: 13.2ms)
+
+
+Started POST "/api/users" for ::1 at 2018-06-28 10:35:30 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"rob.matthews@me.com", "password"=>"[FILTERED]", "username"=>"theProjekt"}, "registration"=>{"user"=>{"email"=>"rob.matthews@me.com", "password"=>"[FILTERED]", "username"=>"theProjekt"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'rob.matthews@me.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'theProjekt' LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "username", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "rob.matthews@me.com"], ["encrypted_password", "$2a$11$j8O9alOxbNSYe5c/zW2deOxncwLhvrTqPF1tzI6uW5WTFy/cLqacm"], ["username", "theProjekt"], ["created_at", "2018-06-28 15:35:31.055007"], ["updated_at", "2018-06-28 15:35:31.055007"]]
+  [1m[35m (5.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2018-06-28 15:35:31.062571"], ["current_sign_in_at", "2018-06-28 15:35:31.062571"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2018-06-28 15:35:31.063490"], ["id", 2]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  Rendered users/_user.json.jbuilder (0.7ms)
+  Rendered devise/registrations/create.json.jbuilder (2.2ms)
+Completed 200 OK in 191ms (Views: 22.4ms | ActiveRecord: 9.0ms)
+
+
+Started POST "/api/users" for ::1 at 2018-06-28 10:37:09 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"rob.matthews@me.com", "password"=>"[FILTERED]", "username"=>"wisher"}, "registration"=>{"user"=>{"email"=>"rob.matthews@me.com", "password"=>"[FILTERED]", "username"=>"wisher"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'rob.matthews@me.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'wisher' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 188ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/users/login?email=rob.matthews@.com&passqword=cantguess" for ::1 at 2018-06-28 10:39:28 -0500
+
+SyntaxError (/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '{', expecting keyword_end
+...ion only: [:create, :destroy] { request.env["devise.skip_tim...
+...                              ^
+/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+..."devise.skip_timeout"] = true }
+...                              ^):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (17.1ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (138.6ms)
+
+
+Started POST "/api/users/login?%7B%7BEMAIL%7D%7D=rob.matthews@.com&%7B%7BPASSWORD%7D%7D=[FILTERED]" for ::1 at 2018-06-28 10:40:11 -0500
+
+SyntaxError (/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '{', expecting keyword_end
+...ion only: [:create, :destroy] { request.env["devise.skip_tim...
+...                              ^
+/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+..."devise.skip_timeout"] = true }
+...                              ^):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (121.6ms)
+
+
+Started POST "/api/users/login" for ::1 at 2018-06-28 10:40:56 -0500
+
+SyntaxError (/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '{', expecting keyword_end
+...ion only: [:create, :destroy] { request.env["devise.skip_tim...
+...                              ^
+/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+..."devise.skip_timeout"] = true }
+...                              ^):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (151.9ms)
+
+
+Started POST "/api/users/login" for ::1 at 2018-06-28 10:41:20 -0500
+
+SyntaxError (/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '{', expecting keyword_end
+...ion only: [:create, :destroy] { request.env["devise.skip_tim...
+...                              ^
+/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+..."devise.skip_timeout"] = true }
+...                              ^):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (143.6ms)
+
+
+Started GET "/api/user" for ::1 at 2018-06-28 10:42:08 -0500
+Processing by UsersController#show as JSON
+  Parameters: {"user"=>{}}
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users/login" for ::1 at 2018-06-28 10:42:41 -0500
+
+SyntaxError (/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '{', expecting keyword_end
+...ion only: [:create, :destroy] { request.env["devise.skip_tim...
+...                              ^
+/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+..."devise.skip_timeout"] = true }
+...                              ^):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (123.1ms)
+
+
+Started POST "/api/users/login" for ::1 at 2018-06-28 10:52:26 -0500
+
+SyntaxError (/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '{', expecting keyword_end
+...ion only: [:create, :destroy] { request.env["devise.skip_tim...
+...                              ^
+/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+..."devise.skip_timeout"] = true }
+...                              ^):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (137.5ms)
+
+
+Started GET "/api/user" for ::1 at 2018-06-28 10:54:44 -0500
+Processing by UsersController#show as JSON
+  Parameters: {"user"=>{}}
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users" for ::1 at 2018-06-28 10:55:33 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"ranodom#aol.com", "password"=>"[FILTERED]", "username"=>"wisher"}, "registration"=>{"user"=>{"email"=>"ranodom#aol.com", "password"=>"[FILTERED]", "username"=>"wisher"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'ranodom#aol.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'wisher' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 174ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/users" for ::1 at 2018-06-28 10:55:42 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"ranodom#aol.com", "password"=>"[FILTERED]", "username"=>"washer"}, "registration"=>{"user"=>{"email"=>"ranodom#aol.com", "password"=>"[FILTERED]", "username"=>"washer"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'ranodom#aol.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'washer' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 206ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/users" for ::1 at 2018-06-28 10:55:50 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"ranodom#aol.com", "password"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"ranodom#aol.com", "password"=>"[FILTERED]"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'ranodom#aol.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 203ms (Views: 0.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/users" for ::1 at 2018-06-28 10:56:08 -0500
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"ranodom@aol.com", "password"=>"[FILTERED]", "username"=>"washer"}, "registration"=>{"user"=>{"email"=>"ranodom@aol.com", "password"=>"[FILTERED]", "username"=>"washer"}}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'ranodom@aol.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'washer' LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "username", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "ranodom@aol.com"], ["encrypted_password", "$2a$11$bUuW1wGsLbINWWcUOEeUMe.KY/VC8LVcue3lJTv4YLS33OQRQQT4u"], ["username", "washer"], ["created_at", "2018-06-28 15:56:08.334186"], ["updated_at", "2018-06-28 15:56:08.334186"]]
+  [1m[35m (5.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2018-06-28 15:56:08.343547"], ["current_sign_in_at", "2018-06-28 15:56:08.343547"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2018-06-28 15:56:08.344399"], ["id", 3]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  Rendered users/_user.json.jbuilder (0.8ms)
+  Rendered devise/registrations/create.json.jbuilder (4.0ms)
+Completed 200 OK in 243ms (Views: 43.0ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/api/user" for ::1 at 2018-06-28 10:58:27 -0500
+Processing by UsersController#show as JSON
+  Parameters: {"user"=>{}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered users/_user.json.jbuilder (0.8ms)
+  Rendered users/show.json.jbuilder (19.7ms)
+Completed 200 OK in 63ms (Views: 61.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/users/login" for ::1 at 2018-06-28 10:59:06 -0500
+
+SyntaxError (/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '{', expecting keyword_end
+...ion only: [:create, :destroy] { request.env["devise.skip_tim...
+...                              ^
+/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+..."devise.skip_timeout"] = true }
+...                              ^):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (132.4ms)
+
+
+Started POST "/api/users/login" for ::1 at 2018-06-28 11:04:44 -0500
+
+SyntaxError (/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '{', expecting keyword_end
+...ion only: [:create, :destroy] { request.env["devise.skip_tim...
+...                              ^
+/Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/devise-4.2.1/app/controllers/devise/sessions_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+..."devise.skip_timeout"] = true }
+...                              ^):
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.7ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /Users/robmatthews/.rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (126.1ms)
+
+
+Started PUT "/api/user" for ::1 at 2018-06-28 21:29:27 -0500
+Processing by UsersController#update as JSON
+  Parameters: {"user"=>{"email"=>"randy@barba.com"}}
+Can't verify CSRF token authenticity
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms)
+
+
+Started PUT "/api/user" for ::1 at 2018-06-28 21:29:41 -0500
+Processing by UsersController#update as JSON
+  Parameters: {"user"=>{"email"=>"randy@barba.com"}}
+Can't verify CSRF token authenticity
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/user" for ::1 at 2018-06-28 21:55:12 -0500
+Processing by UsersController#show as JSON
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered users/_user.json.jbuilder (11.7ms)
+  Rendered users/show.json.jbuilder (49.6ms)
+Completed 200 OK in 100ms (Views: 89.1ms | ActiveRecord: 1.9ms)
+
+
+Started PUT "/api/user" for ::1 at 2018-06-28 21:55:26 -0500
+Processing by UsersController#update as JSON
+  Parameters: {"user"=>{"email"=>"randy@barba.com"}}
+Can't verify CSRF token authenticity
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+
+
+Started PUT "/api/user" for ::1 at 2018-06-29 00:20:04 -0500
+Processing by UsersController#update as JSON
+  Parameters: {"user"=>{"email"=>"randy@barba.com", "password"=>"[FILTERED]", "username"=>"washer"}}
+Can't verify CSRF token authenticity
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 79ms (ActiveRecord: 0.0ms)
